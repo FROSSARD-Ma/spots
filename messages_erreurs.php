@@ -16,6 +16,13 @@ if (isset($_SESSION['message2']))
     <?php } 
 unset($_SESSION['message2']);
 
+// ------------- MESSAGE 3 ------------
+if (isset($_SESSION['message3'])) 
+    { ?>
+        <div class="alert alert-success" role="alert"><?php echo $_SESSION['message3'];?></div>
+    <?php } 
+unset($_SESSION['message3']);
+
 
 // ------------- ERREUR ------------
 
