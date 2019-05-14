@@ -62,8 +62,6 @@
                     if(!empty($_SESSION['SAE_Admin'])) 
                     {  ?>
                         
-                        <div class="dropdown-divider"></div>
-
                         <a class="dropdown-item btn-sm" href="https://www.sportsalpesevasion.com/communs/index.php?choix=2001">Adhérents</a>
                        
                         <a class="dropdown-item btn-sm" href="https://www.sportsalpesevasion.com/communs/index.php?choix=3823">Trésorerie</a>
@@ -77,9 +75,6 @@
                         <a class="dropdown-item btn-sm" href="https://www.sportsalpesevasion.com/communs/index.php?choix=7702">Ajouter Actualité</a>
 
                         <a href="https://www.sportsalpesevasion.com/actualite/newsletter_hebdo.php" class="dropdown-item btn-sm" role="button" aria-pressed="true" onclick="javascript: return confirm('ENVOYER Newsletter maintenant aux Adhérents ?');">Envoyer Newletter</a>
-
-
-                        <div class="dropdown-divider"></div>
                        
                         <a class="dropdown-item btn-sm" href="https://www.isere.fr/Education/pack-rentree/cheque-jeune-isere/Pages/Partenaires-Pack-loisirs.aspx">Pack'Loisir Isère</a>
 
