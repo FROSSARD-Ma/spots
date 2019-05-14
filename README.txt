@@ -1,2 +1,14 @@
 # Menu Spots
-Menu Spots en projet, soumis à évolution
+===
+Menu avec espace membre
+
+Membres
+---
+- Adhérents
+- Encadrants
+- Responsables activité
+- Membres du bureau
+
+Contact
+---
+Marie 
