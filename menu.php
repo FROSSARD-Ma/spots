@@ -38,23 +38,9 @@
                 </div>
             </li>
 
-            <? if(!empty($_SESSION['SAE_Admin'])) {  ?>
-                
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="index.php?choix=6002" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CALENDRIER</a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item btn-sm" href="index.php?choix=6002">Calendrier Sorties</a>
-
-                    <a class="dropdown-item btn-sm" href="https://www.sportsalpesevasion.com/communs/index.php?choix=6101">Ajouter Sortie</a>
-                </div>
-             </li>
-
-            <?php } else { ?>
              <li class="nav-item">
                 <a class="nav-link" href="index.php?choix=6002">CALENDRIER</a>
               </li>
-            <?php } ?>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="index.php?choix=2100" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MON ESPACE</a>
